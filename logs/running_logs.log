@@ -1,0 +1,38 @@
+[2024-12-10 11:54:17,515: INFO: server: Started server process [45580]]
+[2024-12-10 11:54:17,520: INFO: on: Waiting for application startup.]
+[2024-12-10 11:54:17,521: INFO: on: Application startup complete.]
+[2024-12-10 11:54:17,523: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-12-10 11:57:24,068: INFO: server: Shutting down]
+[2024-12-10 11:57:24,175: INFO: on: Waiting for application shutdown.]
+[2024-12-10 11:57:24,176: INFO: on: Application shutdown complete.]
+[2024-12-10 11:57:24,177: INFO: server: Finished server process [45580]]
+[2024-12-10 11:57:48,598: INFO: server: Started server process [27140]]
+[2024-12-10 11:57:48,612: INFO: on: Waiting for application startup.]
+[2024-12-10 11:57:48,613: INFO: on: Application startup complete.]
+[2024-12-10 11:57:48,616: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-12-10 12:10:50,279: INFO: server: Shutting down]
+[2024-12-10 12:10:50,458: INFO: server: Finished server process [27140]]
+[2024-12-10 12:10:50,850: ERROR: on: Traceback (most recent call last):
+  File "C:\Users\DELL E7470\Desktop\Akshat\DataScience\.venv\lib\site-packages\starlette\routing.py", line 638, in lifespan
+    await receive()
+  File "C:\Users\DELL E7470\Desktop\Akshat\DataScience\.venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\DELL E7470\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+]
+[2024-12-10 12:22:53,947: INFO: server: Started server process [11696]]
+[2024-12-10 12:22:53,950: INFO: on: Waiting for application startup.]
+[2024-12-10 12:22:53,952: INFO: on: Application startup complete.]
+[2024-12-10 12:22:53,953: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-12-10 12:43:38,402: INFO: server: Shutting down]
+[2024-12-10 12:43:38,638: INFO: server: Finished server process [11696]]
+[2024-12-10 12:43:38,847: ERROR: on: Traceback (most recent call last):
+  File "C:\Users\DELL E7470\Desktop\Akshat\DataScience\.venv\lib\site-packages\starlette\routing.py", line 638, in lifespan
+    await receive()
+  File "C:\Users\DELL E7470\Desktop\Akshat\DataScience\.venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\DELL E7470\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+]
